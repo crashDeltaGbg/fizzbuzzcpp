@@ -10,13 +10,13 @@ int main () {
 	cin >> user_input_number;
 
 	if (user_input_number % 15 == 0) {
-		cout << "FizzBuzz" << endl;
+		cout << "\nFizzBuzz" << endl;
 	} else if (user_input_number % 5 == 0) {
-		cout << "Fizz" << endl;
+		cout << "\nFizz" << endl;
 	} else if (user_input_number % 3 == 0) {
-		cout << "Buzz" << endl;
+		cout << "\nBuzz" << endl;
 	} else {
-		cout << "Sorry, that number doesn't do anything :/" << endl;
+		cout << "\nSorry, that number doesn't do anything :/" << endl;
 	}
 
 	return 0;
